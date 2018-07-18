@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="Customize"
+        android:id="@+id/Customize">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery_icon"
+                android:icon="@drawable/gallery_icon"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/gear_icon"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+    <item android:title="Help"
+        android:id="@+id/Help">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/book_icon"
+                android:title="User Guide" />
+        </menu>
+    </item>
+
+    <item android:title="About"
+        android:id="@+id/About">
+        <menu>
+            <item
+                android:id="@+id/nav_follow"
+                android:icon="@drawable/fist_icon"
+                android:title="Support Sham" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/info_icon"
+                android:title="About Sham" />
+        </menu>
+    </item>
+    </group>
+</menu>

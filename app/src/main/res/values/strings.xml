@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">sham</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- NOT MY CODE -->
+        <string name="title_activity_welcome">Home Screen</string>
+        <string name="next">NEXT</string>
+        <string name="skip">SKIP</string>
+        <string name="start">GOT IT</string>
+
+        <string name="slide_1_title">Sham</string>
+        <string name="slide_1_desc">The only app that improves your influence with a simple ring</string>
+
+        <string name="slide_2_title">With the Push of a Button</string>
+        <string name="slide_2_desc">Push, Put to Sleep, Wait 5. it is that simple and instant</string>
+
+        <string name="slide_3_title">plan &amp; Prepare</string>
+        <string name="slide_3_desc">Or set push notifications when it is suitable for you</string>
+
+        <string name="slide_4_title">Random &amp; Sporadic</string>
+        <string name="slide_4_desc">Set push notifications to randomly occur throughout the day</string>
+
+        <string name="slide_5_title">With Plenty of Features in The Future</string>
+        <string name="slide_5_desc">This is just the alpha, features will be added regularly up until the full release</string>
+
+        <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+        <string name="play_again">Play Again</string>
+</resources>
+
+

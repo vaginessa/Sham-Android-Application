@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/maincolor"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Support Sham"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Follow Sham on Facebook"
+            android:textColor="@color/maincolor"
+            android:background="#3B5998"
+            android:textStyle="bold"
+            android:onClick="Facebook"
+            android:drawableLeft="@drawable/facebook_icon"/>
+
+        <Button
+            android:id="@+id/twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Follow Sham on Twitter"
+            android:textColor="@color/maincolor"
+            android:background="#29aae2"
+            android:textStyle="bold"
+            android:onClick="Twitter"
+            android:drawableLeft="@drawable/twitter_icon"/>
+
+        <Button
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/maincolor"
+            android:text="Follow Sham on Instagram"
+            android:background="#bc2a8d"
+            android:onClick="Insta"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/insta_icon"/>
+
+        <Button
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Give Sham a Rating"
+            android:onClick="Rate"
+            android:background="#fccc63"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/star_icon"
+            android:drawableRight="@drawable/star_icon"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

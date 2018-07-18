@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/grid_icon" android:state_selected="true"/>
+    <item android:drawable="@drawable/menu_icon_grey"/>
+</selector>

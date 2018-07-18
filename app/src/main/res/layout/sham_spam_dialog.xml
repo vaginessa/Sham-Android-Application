@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/start_spam_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:onClick="StartSpamTimer"
+            android:background="@drawable/action_button_icon_high_dens"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="0dp" />
+            <ImageButton
+                android:id="@+id/stop_spam_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:alpha="0.5"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:onClick="StopSpamTimer"
+                android:background="@drawable/action_button_icon_high_dens"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                android:padding="12dp"
+                android:textColor="#ffff"
+                android:textSize="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/spam_countdown" />
+
+        </RelativeLayout>
+
+        <!-- These are seekbars that will allow the user to change the intensity of the notifications for the full release (Unfinished)
+        <SeekBar
+            android:id="@+id/seekBar_ring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"/>
+        <SeekBar
+            android:id="@+id/seekBar_notiring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"/>
+        <SeekBar
+            android:id="@+id/seekBar_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"/>
+
+            -->
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

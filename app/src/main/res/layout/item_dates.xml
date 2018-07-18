@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp">
+
+            <ImageButton
+                android:id="@+id/img_dates"
+                android:layout_width="47dip"
+                android:layout_height="47dip"
+                android:layout_centerInParent="true"
+                android:onClick="ViewImage"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_outline"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:background="@null" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/notification_item">
+
+            <TextView
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Name"
+                android:id="@+id/name_for_notification"/>
+
+            <TextView
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Message"
+                android:id="@+id/message_for_notification"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextClock
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/maincolor"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/repeat_type"
+            android:src="@null"
+            android:layout_gravity="right"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
